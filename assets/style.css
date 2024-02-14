@@ -1,18 +1,21 @@
 body {
     text-align: center;
+    font-family: 'JetBrains Mono', monospace;
 }
 
-h1, p {
+h1, h2 {
     margin: 0;
     padding: 10px;
+    font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 36px;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 24px;
 }
 
 p {
@@ -20,10 +23,22 @@ p {
 }
 
 img {
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
-    width: 20%; /* Ajuste o valor conforme necessário para diminuir o tamanho da imagem */
+    width: 100%;
     margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Adicione estilos adicionais conforme necessário */
+button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'JetBrains Mono', monospace;
+}
