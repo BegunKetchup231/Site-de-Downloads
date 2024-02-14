@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+h1, p {
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 20%; /* Ajuste o valor conforme necessário para diminuir o tamanho da imagem */
+    margin-top: 20px;
+}
+
+/* Adicione estilos adicionais conforme necessário */
