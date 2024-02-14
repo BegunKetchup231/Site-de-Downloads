@@ -3,23 +3,60 @@ body {
     font-family: 'JetBrains Mono', monospace;
 }
 
-h1, h2 {
+
+/* Adicione estas regras CSS para estilizar a caixa do título e da descrição */
+.title-box, .description-box {
+    border: 2.5px dashed #000000; /* Borda pontilhada com cor cinza claro */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    border-radius: 25px; /* Adiciona bordas arredondadas à caixa */
+}
+
+/* Adicione o preenchimento (padding) à esquerda e à direita do título e da descrição */
+.title-text, .description-text {
+    margin: 0; /* Remova a margem padrão do texto */
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box; /* Mantém o preenchimento dentro da largura total da caixa */
+}
+
+#organizer-title {
+    margin: 0; /* Remove a margem padrão do título */
+}
+
+.left-align {
+    text-align: left;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-image {
+    max-width: 5%;
+    margin-right: 4px;
+}
+
+.title-text {
     margin: 0;
     padding: 10px;
     font-weight: bold;
     font-family: 'JetBrains Mono', monospace;
-}
-
-h1 {
+    color: #000000b0;
     font-size: 36px;
+    text-align: left; /* Alinha o título à esquerda */
 }
 
 h2 {
     font-size: 24px;
+    color: #000000
 }
 
 p {
     font-size: 18px;
+    color: #000000;
+    line-height: 1.5;
 }
 
 img {
@@ -41,4 +78,16 @@ button {
     margin-left: auto;
     margin-right: auto;
     font-family: 'JetBrains Mono', monospace;
+    background-color: #6f00ffb0;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+button:hover {
+    background-color: #000000;
+    color: #ffffffb0
+}
+
+
