@@ -1,5 +1,5 @@
 function downloadApp() {
-    var downloadLink = 'https://github.com/BegunKetchup231/Organizador-de-Arquivos/releases/download/instalador/OrganizadorDeArquivos-Release14-02-2024.zip.exe';
+    var downloadLink = 'https://github.com/BegunKetchup231/Organizador-de-Arquivos/releases/download/instalador/AiVisionCodeOrganizadorSetup.exe';
     window.open(downloadLink, '_blank');
 }
 
