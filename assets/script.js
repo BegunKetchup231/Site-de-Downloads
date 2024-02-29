@@ -1,5 +1,5 @@
 function downloadApp() {
-    var downloadLink = 'https://github.com/BegunKetchup231/Organizador-De-Arquivos/releases/download/Alfa/OrganizadorDeArquivos-Release14-02-2024.zip';
+    var downloadLink = 'https://github.com/BegunKetchup231/Organizador-de-Arquivos/releases/download/instalador/OrganizadorDeArquivos-Release14-02-2024.zip.exe';
     window.open(downloadLink, '_blank');
 }
 
