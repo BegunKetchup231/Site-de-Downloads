@@ -3,13 +3,6 @@ body {
     font-family: 'JetBrains Mono', monospace;
 }
 
-.title-image {
-    max-width: 8%;
-    text-align: center; 
-    display: block;
-    margin-left: auto;
-}
-
 .title-text {
     margin: 0;
     padding: 10px;
@@ -20,10 +13,19 @@ body {
     text-align: center; /* Alinha o título à esquerda */
 }
 
-h2 {
-    font-size: 24px;
-    color: #000000
+.title-box {
+    margin: 0 !important;
+    padding: 10px !important;
+    text-align: center !important;
 }
+
+#organizer-title {
+    font-weight: bold !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    color: #7700ffb0 !important;
+    font-size: 36px !important;
+}
+
 
 p {
     font-size: 18px;
